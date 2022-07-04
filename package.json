@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage" : "https://yhancsx.github.io/YohanJiyun_Weddingday_20220806",
   "scripts": {
-    "deploy": "gh-pages -d ./"
+    "deploy": "gh-pages -d ."
   },
   "dependencies": {
     "gh-pages": "^4.0.0"
