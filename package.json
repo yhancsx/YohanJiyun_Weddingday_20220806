@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.html",
   "license": "MIT",
-  "homepage" : "https://yhancsx.github.io/wedding-letter/",
+  "homepage" : "https://yhancsx.github.io/YohanJiyun_Weddingday_20220806",
   "scripts": {
     "deploy": "gh-pages -d ./"
   },
