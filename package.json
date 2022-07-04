@@ -1,0 +1,12 @@
+{
+  "name": "wedding-letter",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
