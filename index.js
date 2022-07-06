@@ -1,9 +1,8 @@
 function randomMain() {
   const rand = getRandomInt(0, 10);
-  const imgPath = rand % 2 === 0 ? './images/001-1.png' : './images/001.png';
 
   const firstImage = document.querySelector('img.first');
-  firstImage.src = imgPath;
+  if (rand % 2 === 0) firstImage.src = 'https://yhancsx.github.io/YohanJiyun_Weddingday_20220806/images/001-1.png';
 }
 
 function getRandomInt(min, max) {
@@ -12,4 +11,4 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min; //최댓값은 제외, 최솟값은 포함
 }
 
-randomMain()
+randomMain();
