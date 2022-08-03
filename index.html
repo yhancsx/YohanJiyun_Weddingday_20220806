@@ -44,6 +44,10 @@
     <img loading="lazy" src="./images/025.png" />
     <img loading="lazy" src="./images/026.png" />
     <img loading="lazy" src="./images/027.png" />
+    <div class="button-group">
+      <button class="up">↑</button>
+      <button class="down">↓</button>
+    </div>
     <script>
       function randomMain() {
         const rand = getRandomInt(0, 9);
@@ -59,6 +63,11 @@
       }
 
       randomMain();
+
+      const up = document.querySelector('.up');
+      const down = document.querySelector('.down');
+      up.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+      down.addEventListener('click', () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
     </script>
   </body>
 </html>

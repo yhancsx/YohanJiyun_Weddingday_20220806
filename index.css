@@ -7,3 +7,26 @@ body {
 img {
   width: 100%;
 }
+.button-group {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #aFaFaF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F3F3;
+}
+.up,
+.dowm {
+}
