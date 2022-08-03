@@ -27,6 +27,14 @@ button {
   justify-content: center;
   background-color: #F4F3F3;
 }
-.up,
-.dowm {
-}
+@media (max-width: 600px) { 
+  .button-group {
+    right: 30px;
+    bottom: 30px;
+  }
+  button {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+  }
+ }
